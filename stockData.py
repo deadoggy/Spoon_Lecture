@@ -2,6 +2,11 @@
 import time
 import numpy
 import math
+import sys
+
+reload(sys)
+
+sys.setdefaultencoding('utf8')
 
 class stockDataProcessor:
     __fileName = "000001.csv"
@@ -101,13 +106,24 @@ class stockDataProcessor:
         aer_cov = numpy.cov(custom,aer)
         aer_per = numpy.corrcoef(custom,aer)
 
-        #TODO:打表
 
         #算sigma_m：
         sigmaM = (aer_ave + numpy.var(aer)/2)/aer_sigma
         gema =  (aer_ave + numpy.var(aer)/2)/aer_cov[0][1]
 
-        pass
+        #输出结果
+
+        fileOutput = open('result.txt', 'w')
+        fileOutput.write("股票：\n" + "\t均值: " + str(stock_ave) + "\n\t标准差：" + str(stock_sigma) + "\n\t协方差：" + str(stock_cov[0][1]) + "\n\t相关系数："+str(stock_per[0][1]) + u"\n")
+        fileOutput.write("居民消费增长率：\n" + "\t均值: " + str(custom_ave) + "\n\t标准差：" + str(custom_sigma) + "\n\t协方差：" + str(custom_cov) + "\n\t相关系数："+str(custom_per) + u"\n")
+        fileOutput.write("储蓄利率：\n" + u"\t均值: " + str(save_ave) + "\n\t标准差：" + str(save_sigma) + "\n\t协方差：" + str(save_cov[0][1]) + "\n\t相关系数："+str(save_per[0][1]) + "\n")
+        fileOutput.write("aer：\n" + "\t均值: " + str(aer_ave) + "\n\t标准差：" + str(aer_sigma) + "\n\t协方差：" + str(aer_cov[0][1]) + "\n\t相关系数："+str(aer_per[0][1]) + "\n")
+
+        fileOutput.write("\nsigmaM: " + str(sigmaM) + "\n")
+
+        fileOutput.write("\ngema: " + str(gema) + "\n")
+
+
 
 
 if __name__ == '__main__':
