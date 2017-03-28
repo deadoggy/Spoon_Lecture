@@ -13,11 +13,14 @@ sys.setdefaultencoding('utf8')
 class ProcessData:
 
     __gap = 2
+    __customFileName = u"居民消费总额.csv"
+    __stockFileName = u"三板成指.csv"
+    __rateFileName = u"一年期存款利率.csv"
 
     def processCustomData(self):
         #数据格式：
         #时间	社会消费品零售总额_当期值(亿元)	社会消费品零售总额_累计值(亿元)
-        file = open(u'居民消费总额.csv')
+        file = open(self.__customFileName)
         record = []
         ret = []
 
@@ -44,10 +47,13 @@ class ProcessData:
 
         return ret
 
-    def prodessStockData(self):
+    def prodessStockData(self, fileName = None):
         #数据格式：
         #日期	股票代码	名称	收盘价
-        file = open(u'三板成指.csv')
+        if fileName == None:
+            file = open(self.__customFileName,)
+        else:
+            file = fileName
         ret = []
         record = []
 
@@ -82,7 +88,7 @@ class ProcessData:
         return ret
 
     def processInterestRate(self):
-        file = open(u'一年期存款利率.csv')
+        file = open(self.__rateFileName)
         temp = []
         ret = []
 
