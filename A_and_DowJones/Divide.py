@@ -111,11 +111,15 @@ class Divider:
 
     def divideViolence(self):
         file = open("DowJonesAfter1950.csv")
+        preprice = eval(file.readline().split(",")[1])
         line = file.readline()
         all_data = []
         ret = []
         while line is not None and len(line)!= 0:
-            all_data.append(eval(line.split(",")[1]))
+            curprice = eval(line.split(",")[1])
+            rate = (curprice - preprice) / preprice
+            preprice = curprice
+            all_data.append(rate)
             line = file.readline()
         gap = 244
         beg = 0
