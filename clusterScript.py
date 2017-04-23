@@ -84,8 +84,8 @@ class clusterer:
         X = np.array(self.__dataVec)
         knner = NearestNeighbors(n_neighbors=self.__k).fit(X)
 
-        dis1, clu1 = knner.kneighbors(X[-1, :]) // 2016
-        dis2, clu2 = knner.kneighbors(X[-2, :]) // 2015
+        dis1, clu1 = knner.kneighbors(X[-1, :])
+        dis2, clu2 = knner.kneighbors(X[-2, :])
 
         res = open("knnRes", "w")
 
@@ -202,8 +202,8 @@ class clusterer:
 
 if __name__ == "__main__":
     obj = clusterer()
-    # obj.divideViolence()
-    # obj.KNN()
+    obj.divideViolence()
+    obj.KNN()
     # obj.draw(1987, 8, 26, 244)
     # obj.draw(2008, 7, 28, 300)
     # obj.draw(1987, 4, 23, 420)
