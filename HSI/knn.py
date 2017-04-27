@@ -3,6 +3,9 @@
 from sklearn.neighbors import NearestNeighbors
 import numpy as np
 import matplotlib.pylab as plt
+import matplotlib.dates as pltd
+import datetime
+import time
 
 hsi_rate = open("HSI_rate")
 
@@ -14,7 +17,7 @@ line = hsi_rate.readline()
 temp_vec = []
 
 while len(line) > 0:
-    date_item = line.split(" ")[0]
+    date_item = time.strptime(line.split(" ")[0], "%Y-%m-%d")
     date_list.insert(0, date_item)
     price_item = line.split(" ")[2]
     price_list.insert(0, eval(price_item.replace(",","")))
@@ -58,7 +61,13 @@ end = date_res[-1] + 244
 
 Y = price_list[beg: end]
 
-plt.plot(np.linspace(0, end-beg, end-beg), Y)
+X = []
+
+for i in range(426):
+    dateItem = date_list[i+beg]
+    X.append(datetime.datetime(year=dateItem.tm_year, month=dateItem.tm_mon, day=dateItem.tm_mday))
+
+plt.plot_date(pltd.date2num(X), Y, "m-")
 
 plt.show()
 

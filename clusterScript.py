@@ -6,6 +6,8 @@ from sklearn.metrics import silhouette_score
 import numpy as np
 import time
 import matplotlib.pylab as plt
+import matplotlib.dates as pltd
+import datetime
 
 
 class clusterer:
@@ -158,7 +160,7 @@ class clusterer:
         time = self._str2time(line.split(",")[0])
         val  = eval(line.split(",")[1])
 
-        X = np.linspace(0, datelen, datelen)
+        X = []
 
         Y = []
 
@@ -166,7 +168,10 @@ class clusterer:
 
         while len(line) > 0:
             if time.tm_year == year and time.tm_mon == mon and time.tm_mday == day:
+                dateStart = datetime.datetime(year=year, month=mon,day=day)
+
                 for index in range(datelen):
+                    X.append(dateStart + datetime.timedelta(days=index))
                     Y.append(val)
                     if index == datelen-1:
                         endDate = time
@@ -177,26 +182,33 @@ class clusterer:
             line = file.readline()
             time = self._str2time(line.split(",")[0])
             val = eval(line.split(",")[1])
-        plt.plot(X, Y)
+        plt.plot_date(pltd.date2num(X), Y, "m-")
         name = str(year) + "_" + str(mon) + "_" + str(day) + "_to_" +\
             str(endDate.tm_year) + "_" + str(endDate.tm_mon) + "_" + str(endDate.tm_mday) +"_"+ str(datelen)
-        plt.savefig("Img/" + name + ".png")
+        # plt.savefig("Img/" + name + ".png")
+        plt.show()
         plt.close()
 
     def drawThr(self):
-        X = np.linspace(0, 244, 244)
 
 
         fileList = ["2015_three", "2016_three"]
-        for fileName in fileList:
+        for index, fileName in enumerate(fileList):
             Y = []
+            X = []
+
             file = open("201501to201612/" + fileName+".csv")
             line = file.readline()
             while 0 != len(line):
+                date = time.strptime(line.split(",")[0], "%Y-%m-%d")
+                X.append(datetime.datetime(year=date.tm_year, month=date.tm_mon, day=date.tm_mday))
+
                 Y.append(eval(line.split(",")[1]))
                 line = file.readline()
-            plt.plot(X, Y)
-            plt.savefig("Img/" + fileName + ".png")
+            dates = pltd.date2num(X)
+            plt.plot_date(dates, Y, 'm-')
+            plt.show()
+            #plt.savefig("Img/" + fileName + ".png")
             plt.close()
 
 

@@ -2,8 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7e4829bd-bf58-4cb2-8670-388e4f48f0a9" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Img/2015_three.png" afterPath="$PROJECT_DIR$/Img/2015_three.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Img/2016_three.png" afterPath="$PROJECT_DIR$/Img/2016_three.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Img/dow_jones/1987_4_23_to_1988_12_16_420.png" afterPath="$PROJECT_DIR$/Img/dow_jones/1987_4_23_to_1988_12_16_420.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Img/dow_jones/1987_8_26_to_1988_8_11_244.png" afterPath="$PROJECT_DIR$/Img/dow_jones/1987_8_26_to_1988_8_11_244.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Img/dow_jones/2008_2_11_to_2009_1_28_244.png" afterPath="$PROJECT_DIR$/Img/dow_jones/2008_2_11_to_2009_1_28_244.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Img/dow_jones/2008_7_28_to_2009_10_2_300.png" afterPath="$PROJECT_DIR$/Img/dow_jones/2008_7_28_to_2009_10_2_300.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Img/hsi/2004-8-6_to_2006-4-26.png" afterPath="$PROJECT_DIR$/Img/hsi/2004-8-6_to_2006-4-26.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HSI/knn.py" afterPath="$PROJECT_DIR$/HSI/knn.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clusterScript.py" afterPath="$PROJECT_DIR$/clusterScript.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/knnRes" afterPath="$PROJECT_DIR$/knnRes" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,9 +24,9 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Spoon_Lecture$script.coverage" NAME="script Coverage Results" MODIFIED="1490596257372" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/data$script.coverage" NAME="script Coverage Results" MODIFIED="1483271923324" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Spoon_Lecture$clusterScript.coverage" NAME="clusterScript Coverage Results" MODIFIED="1492928172236" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Spoon_Lecture$retrieveData.coverage" NAME="retrieveData Coverage Results" MODIFIED="1492932469282" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HSI" />
-    <SUITE FILE_PATH="coverage/Spoon_Lecture$knn.coverage" NAME="knn Coverage Results" MODIFIED="1492932875921" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HSI" />
+    <SUITE FILE_PATH="coverage/Spoon_Lecture$clusterScript.coverage" NAME="clusterScript Coverage Results" MODIFIED="1493304868943" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Spoon_Lecture$knn.coverage" NAME="knn Coverage Results" MODIFIED="1493304132639" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HSI" />
     <SUITE FILE_PATH="coverage/Spoon_Lecture$DivideA.coverage" NAME="DivideA Coverage Results" MODIFIED="1490716224290" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/A" />
   </component>
   <component name="CreatePatchCommitExecutor">
@@ -37,78 +46,30 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="clusterScript.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="clusterScript.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/clusterScript.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2207">
-              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="30" />
+            <state relative-caret-position="562">
+              <caret line="209" column="22" lean-forward="false" selection-start-line="209" selection-start-column="22" selection-end-line="209" selection-end-column="22" />
               <folding>
-                <element signature="e#1362#2532#0" expanded="false" />
-                <element signature="e#3325#4388#0" expanded="false" />
-                <element signature="e#5904#6358#0" expanded="false" />
+                <element signature="e#16#44#0" expanded="true" />
+                <element signature="e#422#1369#0" expanded="false" />
+                <element signature="e#1410#2580#0" expanded="false" />
+                <element signature="e#3373#4436#0" expanded="false" />
+                <element signature="e#4480#4756#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="three_1" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/201501to201612/three_1">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="three_2" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/201501to201612/three_2">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-5639">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="knn.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="knn.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/HSI/knn.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+            <state relative-caret-position="1690">
+              <caret line="70" column="0" lean-forward="false" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
               <folding>
                 <element signature="e#15#61#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HSI.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HSI/HSI.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
-              <caret line="5" column="48" lean-forward="true" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="48" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="base.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Package/Anaconde/lib/python2.7/site-packages/sklearn/neighbors/base.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
-              <caret line="324" column="0" lean-forward="false" selection-start-line="324" selection-start-column="0" selection-end-line="324" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="retrieveData.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HSI/retrieveData.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="17" column="87" lean-forward="false" selection-start-line="17" selection-start-column="87" selection-end-line="17" selection-end-column="87" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -118,16 +79,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2015_three.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/201501to201612/2015_three.csv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6287">
-              <caret line="243" column="20" lean-forward="false" selection-start-line="243" selection-start-column="20" selection-end-line="243" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -165,9 +116,9 @@
         <option value="$PROJECT_DIR$/201501to201612/2016_three.csv" />
         <option value="$PROJECT_DIR$/HSI/HSI.txt" />
         <option value="$PROJECT_DIR$/HSI/HSI_rate" />
-        <option value="$PROJECT_DIR$/clusterScript.py" />
         <option value="$PROJECT_DIR$/HSI/retrieveData.py" />
         <option value="$PROJECT_DIR$/HSI/knn.py" />
+        <option value="$PROJECT_DIR$/clusterScript.py" />
       </list>
     </option>
   </component>
@@ -267,19 +218,19 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Documents/Repository/DataMining/DataMining/HW2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
   </component>
-  <component name="RunManager" selected="Python.knn">
+  <component name="RunManager" selected="Python.clusterScript">
     <configuration default="false" name="script" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -593,9 +544,9 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.knn" />
-        <item index="1" class="java.lang.String" itemvalue="Python.retrieveData" />
-        <item index="2" class="java.lang.String" itemvalue="Python.clusterScript" />
+        <item index="0" class="java.lang.String" itemvalue="Python.clusterScript" />
+        <item index="1" class="java.lang.String" itemvalue="Python.knn" />
+        <item index="2" class="java.lang.String" itemvalue="Python.retrieveData" />
         <item index="3" class="java.lang.String" itemvalue="Python.DivideA" />
         <item index="4" class="java.lang.String" itemvalue="Python.script" />
       </list>
@@ -625,15 +576,15 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1920" height="989" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.291889" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30149412" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32996634" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32996634" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32772166" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32772166" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -685,15 +636,11 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="141" />
+      <option name="time" value="146" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/A/2015_2016.csv" />
-    <entry file="file://$PROJECT_DIR$/A/2007_2008.csv" />
-    <entry file="file://$PROJECT_DIR$/A/2001_2002.csv" />
-    <entry file="file://$PROJECT_DIR$/A/1995_1996.csv" />
     <entry file="file://$PROJECT_DIR$/A/1991_1992.csv" />
     <entry file="file://$PROJECT_DIR$/A/1896_1897.csv" />
     <entry file="file://$PROJECT_DIR$/A/2009_2010.csv" />
@@ -763,11 +710,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1872">
           <caret line="116" column="16" lean-forward="false" selection-start-line="116" selection-start-column="16" selection-end-line="116" selection-end-column="16" />
-          <folding>
-            <element signature="e#14#25#0" expanded="false" />
-            <element signature="e#237#669#0" expanded="false" />
-            <element signature="e#704#1578#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -775,24 +717,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="12662">
           <caret line="487" column="20" lean-forward="false" selection-start-line="244" selection-start-column="0" selection-end-line="487" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Img1987_4_23_to_1988_12_16420.png" />
-    <entry file="file://$PROJECT_DIR$/201501to201612/2016_three.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6318">
-          <caret line="243" column="20" lean-forward="false" selection-start-line="243" selection-start-column="20" selection-end-line="243" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/knnRes">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="26">
           <caret line="1" column="8" lean-forward="false" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -800,7 +732,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
           <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -808,15 +739,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
           <caret line="14546" column="0" lean-forward="false" selection-start-line="14546" selection-start-column="0" selection-end-line="14546" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/201501to201612/2015_three.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6287">
-          <caret line="243" column="20" lean-forward="false" selection-start-line="243" selection-start-column="20" selection-end-line="243" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -824,7 +746,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -836,15 +757,70 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/clusterScript.py">
+    <entry file="file://$PROJECT_DIR$/201501to201612/three_2">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2207">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="30" />
-          <folding>
-            <element signature="e#1362#2532#0" expanded="false" />
-            <element signature="e#3325#4388#0" expanded="false" />
-            <element signature="e#5904#6358#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HSI/2004-8-6_to_2006-4-26.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Img/1987_4_23_to_1988_12_16_420.png" />
+    <entry file="file://$PROJECT_DIR$/Img/2015_three.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/201501to201612/2015_three.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6318">
+          <caret line="243" column="20" lean-forward="false" selection-start-line="243" selection-start-column="20" selection-end-line="243" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/201501to201612/2016_three.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="584">
+          <caret line="243" column="20" lean-forward="false" selection-start-line="243" selection-start-column="20" selection-end-line="243" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="973" column="0" lean-forward="false" selection-start-line="973" selection-start-column="0" selection-end-line="973" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Package/Anaconde/lib/python2.7/_strptime.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="331" column="0" lean-forward="false" selection-start-line="331" selection-start-column="0" selection-end-line="331" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Package/Anaconde/lib/python2.7/site-packages/matplotlib/dates.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="344" column="4" lean-forward="false" selection-start-line="344" selection-start-column="4" selection-end-line="344" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HSI/HSI.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="5" column="48" lean-forward="false" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Package/Anaconde/lib/python2.7/site-packages/sklearn/neighbors/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="809">
+          <caret line="324" column="0" lean-forward="false" selection-start-line="324" selection-start-column="0" selection-end-line="324" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -856,46 +832,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/201501to201612/three_2">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5639">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HSI/HSI.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="5" column="48" lean-forward="true" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Package/Anaconde/lib/python2.7/site-packages/sklearn/neighbors/base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="324" column="0" lean-forward="false" selection-start-line="324" selection-start-column="0" selection-end-line="324" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HSI/2004-8-6_to_2006-4-26.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Img/1987_4_23_to_1988_12_16_420.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/HSI/knn.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+        <state relative-caret-position="1690">
+          <caret line="70" column="0" lean-forward="false" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
           <folding>
             <element signature="e#15#61#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clusterScript.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="562">
+          <caret line="209" column="22" lean-forward="false" selection-start-line="209" selection-start-column="22" selection-end-line="209" selection-end-column="22" />
+          <folding>
+            <element signature="e#16#44#0" expanded="true" />
+            <element signature="e#422#1369#0" expanded="false" />
+            <element signature="e#1410#2580#0" expanded="false" />
+            <element signature="e#3373#4436#0" expanded="false" />
+            <element signature="e#4480#4756#0" expanded="false" />
           </folding>
         </state>
       </provider>
